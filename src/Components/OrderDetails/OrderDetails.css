@@ -1,0 +1,13 @@
+.order-details{
+    width:100%;
+    padding: 10px;
+    box-shadow: 22px 31px 126px -78px rgba(0,0,0,1);
+}
+
+.order-detail-list {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+}

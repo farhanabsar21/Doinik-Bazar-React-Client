@@ -1,0 +1,39 @@
+.Header{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header a{
+    color: #222;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.Header .logo{
+    display: flex;
+    align-items: center;
+}
+.Header .user button{
+    outline: none;
+    border: none;
+    padding: 10px 36px;
+    font-size: 16px;
+    background-image: linear-gradient(45deg, #00b33c, #00cc44);
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .Header{
+        flex-direction: column;
+    }
+    .Header .user button{
+        padding: 8px 30px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+} 

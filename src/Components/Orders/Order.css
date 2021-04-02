@@ -1,0 +1,8 @@
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 10px;
+    color: #00b33c;
+    font-weight: 600;
+}
